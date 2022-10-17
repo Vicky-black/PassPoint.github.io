@@ -176,10 +176,10 @@ function Spec() {
             <a href="https://twitter.com/VEluyera">
               <AiOutlineTwitter size={24} />
             </a>
-            <a href="">
+            <a href="/">
               <AiOutlineInstagram size={24} />
             </a>
-            <a href="">
+            <a href="/">
               <AiOutlineLinkedin size={24} />
             </a>
           </div>
