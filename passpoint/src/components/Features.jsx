@@ -119,22 +119,38 @@ function Features() {
             translateX={[0, 70]}
             EventTarget={screenRef.current}
           >
-            <img src={oneFeature} style={{ width: "150%", height: "100%" }} />
+            <img
+              src={oneFeature}
+              style={{ width: "150%", height: "100%" }}
+              alt="feature picture 1"
+            />
           </Parallax>
 
-          <img src={twoFeature} style={{ width: "60%" }} />
+          <img
+            src={twoFeature}
+            style={{ width: "60%" }}
+            alt="feature picture 2"
+          />
         </div>
       </section>
       {/* <---- ----> */}
       <section className="the_trans_feature_section">
         <div className="the_trans_feature_section_image_container">
-          <img src={threeFeature} style={{ width: "60%" }} />
+          <img
+            src={threeFeature}
+            style={{ width: "60%" }}
+            alt="feature picture 3"
+          />
           <Parallax
             easing={"easeOutQuad"}
             translateX={[0, -70]}
             EventTarget={screenRef.current}
           >
-            <img src={fourFeature} style={{ width: "150%", height: "100%" }} />
+            <img
+              src={fourFeature}
+              style={{ width: "150%", height: "100%" }}
+              alt="feature picture 4"
+            />
           </Parallax>
         </div>
         <article style={{ margin: " 0px 20px" }}>

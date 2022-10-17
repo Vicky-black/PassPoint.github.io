@@ -25,10 +25,20 @@ function Main() {
           translateY={[0, 10]}
           EventTarget={screenRef.current}
         >
-          <img src={pictureTwo} id="picture_two" style={{ width: "130%" }} />
+          <img
+            src={pictureTwo}
+            id="picture_two"
+            style={{ width: "130%" }}
+            alt="picture 2"
+          />
         </Parallax>
 
-        <img src={pictureOne} id="picture_one" style={{ width: "40%" }} />
+        <img
+          src={pictureOne}
+          id="picture_one"
+          style={{ width: "40%" }}
+          alt="picture 1"
+        />
         <Parallax
           easing={"easeInOut"}
           translateX={[0, -100]}
@@ -39,6 +49,7 @@ function Main() {
             src={pictureThree}
             id="picture_three"
             style={{ width: "130%" }}
+            alt="picture 3"
           />
         </Parallax>
       </div>
